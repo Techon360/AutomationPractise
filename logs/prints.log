@@ -1,0 +1,22 @@
+07:32:49 [main] INFO  EndToEndTest - Enter product and click search button
+07:32:54 [main] INFO  EndToEndTest - Click on product
+07:33:00 [main] INFO  EndToEndTest - Enter Quantity
+07:33:00 [main] INFO  EndToEndTest - select size
+07:33:00 [main] INFO  EndToEndTest - Click on add to cart button
+07:33:01 [main] INFO  EndToEndTest - Click on check out button
+07:33:07 [main] INFO  EndToEndTest - Click on proceed to check out button
+07:33:12 [main] INFO  EndToEndTest - Enter user credential for address page
+07:33:18 [main] INFO  EndToEndTest - Click on proceed to check out button
+07:33:21 [main] INFO  EndToEndTest - Accept terms and condition
+07:33:21 [main] INFO  EndToEndTest - Click on proceed to check out button
+07:33:24 [main] INFO  EndToEndTest - select payment method
+07:33:28 [main] INFO  EndToEndTest - click on confirm order button
+07:33:34 [main] INFO  EndToEndTest - verify confirm order message
+07:33:34 [main] INFO  EndToEndTest - confirm order message is verified
+07:37:33 [main] INFO  EndToEndTest - Enter product and click search button
+07:37:37 [main] INFO  EndToEndTest - Click on product
+07:37:43 [main] INFO  EndToEndTest - Enter Quantity
+07:37:43 [main] INFO  EndToEndTest - select size
+07:37:43 [main] INFO  EndToEndTest - Click on add to cart button
+08:02:08 [main] INFO  IndextPgaeTest - 1st test case
+08:02:22 [main] INFO  IndextPgaeTest - 2nd test case

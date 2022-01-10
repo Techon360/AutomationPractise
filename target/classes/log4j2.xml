@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+
+	<!-- where to display logs -->
+	<Appenders>
+
+		<!-- display logs to file -->
+		<RollingFile name="File" fileName="${basePath}/prints.log"
+			filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+
+			<!-- how to display logs in file -->
+			<PatternLayout
+				pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="102400" />
+		</RollingFile>
+
+		<!-- display logs to console -->
+		<Console name="Console" target="SYSTEM_OUT">
+
+			<!-- how to display logs in console -->
+			<PatternLayout
+				pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- what to log (define log level) -->
+		<!-- <Logger name="com.webNetram.Billing.TC_AddNewBill_007"
+			level="info" additivity="false">
+			<AppenderRef ref="File" />
+		</Logger> -->
+
+		<Root level="trace">
+			<AppenderRef ref="File" />
+			<AppenderRef ref="Console" />
+				<AppenderRef ref="File" />
+			<AppenderRef ref="Console" />
+		</Root>
+
+	</Loggers>
+</Configuration>
